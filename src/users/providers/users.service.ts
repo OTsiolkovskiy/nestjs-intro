@@ -21,7 +21,7 @@ export class UserService {
     ]
   }
 
-  public findById(id: number) {
+  public findById(id: string) {
     return {
       id: 123,
       firstName: 'Alice',
